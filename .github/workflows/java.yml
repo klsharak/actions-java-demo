@@ -17,11 +17,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Compile
+      - name: Compile |
         run: javac Hello.java
               javac Welcome.java
 
-      - name: Run
+      - name: Run |
         run: java Hello
              java Welcome
 
